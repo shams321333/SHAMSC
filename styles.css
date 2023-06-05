@@ -1,0 +1,24 @@
+/* Add your CSS styles here */
+
+/* Example styles for page titles */
+h1 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Example styles for password input and button */
+input[type="password"] {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

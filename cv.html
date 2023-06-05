@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SYED SHAMS HAIDER CV</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script>
+    function checkPassword() {
+      var password = document.getElementById("password").value;
+      if (password === "shams") {
+        window.location.href = "cv_protected.html";
+      } else {
+        alert("Incorrect password. Please try again.");
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>My CV</h1>
+  <p>Please enter the password to access my CV:</p>
+  <input type="password" id="password">
+  <button onclick="checkPassword()">Submit</button>
+</body>
+</html>
